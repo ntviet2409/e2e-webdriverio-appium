@@ -33,8 +33,7 @@ Before setting up the project, ensure the following are installed:
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
-    cd <repository-folder>
+    git clone git@github.com:ntviet2409/e2e-webdriverio-appium.git
     ```
 
 2. Install project dependencies:
@@ -78,7 +77,6 @@ Below is the high-level architecture of the framework:
 
 - **`tests/specs`**: Contains test specifications for different scenarios.
 - **`pageobjects`**: Houses Page Object classes for reusable interaction logic.
-- **`helpers`**: Includes utility functions and helper scripts for various test operations.
 - **`apps`**: Directory for mobile app builds (e.g., `.apk` or `.ipa` files).
 - **`config/testData`**: Contains test data files required for the test cases.
 - **`config`**: Includes WebdriverIO configuration and environment-specific setup files.
