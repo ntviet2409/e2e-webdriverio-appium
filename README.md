@@ -100,3 +100,9 @@ Execute tests locally using the following command:
 ```bash
 npm run report
 ```
+
+### Execution Recordings
+
+```bash
+https://drive.google.com/file/d/12geMUD0Bnq9grAhSItp55fIOST7bCftj/view?usp=sharing
+```
