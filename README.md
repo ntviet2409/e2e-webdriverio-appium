@@ -52,12 +52,13 @@ Before setting up the project, ensure the following are installed:
     export ANDROID_HOME=/Users/viet/Library/Android/sdk
    ```
 
-6. Update the `config/wdio.shared.conf.js` file with the desired capabilities and configurations. These information must match with the emulator or real devices
+6. Update the `config/wdio.shared.conf.js` file with the desired capabilities and configurations. These information must match with the emulator or real devices. As the screen resolution on Android is diversified. I encourange to use Device Type: Medium Phone API 35 with Android 15.0 (VanillalceCream) | Arm 64 (MacOS) for the best stability. 
 ```bash
     'appium:deviceName': 'emulator-5554',
     'appium:platformVersion': '15.0',
     'appium:automationName': 'UiAutomator2',
    ```
+
 7. Start the Appium server:
     ```bash
     appium server --allow-insecure chromedriver_autodownload
